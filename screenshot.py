@@ -3,7 +3,7 @@ import pyautogui
 import tkinter as tk
 
 def screenshot():
-    time.sleep(5)
+    #time.sleep(5)
     image= pyautogui.screenshot('image.png')
     image.show()
 
