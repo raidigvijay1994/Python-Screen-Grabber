@@ -1,6 +1,6 @@
-import time
-import pyautogui
-import tkinter as tk
+import time  # This is required to include time module.
+import pyautogui # PyAutoGUI lets Python control the mouse and keyboard, and other GUI automation tasks.
+import tkinter as tk  #for developing graphical user interfaces (GUIs)
 
 def screenshot():
     #time.sleep(5)
