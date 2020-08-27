@@ -4,20 +4,21 @@ import tkinter as tk
 
 def screenshot():
     time.sleep(5)
-    img = pyautogui.screenshot('test.png')
-    img.show()
+    image= pyautogui.screenshot('image.png')
+    image.show()
 
 
 root = tk.Tk()
 frame = tk.Frame(root)
 frame.pack()
 
-button = tk.Button(
+btl = tk.Button()
     frame,
     text ="Take Screenshot",
     command=screenshot)
 
-button.pack(side = tk.LEFT)
+btl.pack(side = tk.LEFT)
+
 close = tk.Button(
     frame,
     text = "QUIT",
