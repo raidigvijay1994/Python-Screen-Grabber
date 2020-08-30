@@ -8,7 +8,7 @@ def screenshot():
     image.show()
 
 
-root = tk.Tk()
+root = tk.Tk() #The root window is created. The root window is a main application window in our programs. It has a title bar and borders
 frame = tk.Frame(root)
 frame.pack()
 
