@@ -25,5 +25,5 @@ close = tk.Button(
     command=quit)
 close.pack(side = tk.RIGHT)   
 
-root.mainloop()  #This method will loop forever, waiting for events from the user, until the user exits the program – either by closing the window, or by terminating the program with a keyboard interrupt in the console
+root.mainloop()  #This method will loop forever, waiting for events from the user, until the user exits the program – either by closing the window, or by terminating the program with a keyboard interrupt in the console.
 
