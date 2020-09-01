@@ -8,7 +8,7 @@ def screenshot():
     image.show()
 
 
-root = tk.Tk() #The root window is created. The root window is a main application window in our programs. It has a title bar and borders
+root = tk.Tk() #The root window is created. The root window is a main application window in our programs. It has a title bar and borders.
 frame = tk.Frame(root)  #A frame in Tk lets you organize and group widgets. It works like a container. Its a rectangular area in which widges can be placed.
 frame.pack()
 
