@@ -3,7 +3,7 @@ import pyautogui # PyAutoGUI lets Python control the mouse and keyboard, and oth
 import tkinter as tk  #for developing graphical user interfaces (GUIs)
 
 def screenshot():
-    #time.sleep(5) Python time method sleep() suspends execution for the given number of seconds.
+    #time.sleep(5) Python time method sleep() suspends execution for the given number of seconds
     image= pyautogui.screenshot('image.png')
     image.show()
 
